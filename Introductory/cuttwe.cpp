@@ -51,7 +51,7 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> a(n), odd;
+        vector<int> a, odd;
         int res = 0;
 
         for (int i = 0; i < n; i++) {
